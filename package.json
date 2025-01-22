@@ -1,0 +1,24 @@
+{
+  "name": "tinyapp-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "tinyapp-react": "bin/resetdb.js"
+  },
+  "scripts": {
+    "start": "concurrently \"npm run start --prefix frontend\" \"npm run start --prefix backend\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amusictheorist/tinyapp-react-v2.0.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amusictheorist/tinyapp-react-v2.0/issues"
+  },
+  "homepage": "https://github.com/amusictheorist/tinyapp-react-v2.0#readme"
+}
